@@ -1,56 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magicians
 
-> Description the project.
-
+> This is a project for the Math Magicians website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations, Read a random math-related quote.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS , JavaScript
+- SCSS , Webpack, and React
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
 
 ### Install
+ - To Install, run the following command:
+``` npx install  ```
+Then run the following command
+``` npm start ```
 
 ### Usage
+- To use the app, run the following command:
+``` npm start ```
+Then open the browser and go to the following link:
+``` http://localhost:3000/ ```
 
-### Run tests
-
-### Deployment
 
 
+# Authors
 
-## Authors
+👤 **Syed Shuja Hussain (He/Him)**
 
-👤 **Author1**
+- GitHub: [@shuja-shah](https://github.com/shuja-shah)
+- Twitter : [@SyedShujaHussa3](https://twitter.com/SyedShujaHussa3)
+- LinkedIn :[@syedshujahussa](https://www.linkedin.com/in/syedshujahussa/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,12 +55,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The Awesome Teamwork! and Microverse!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
