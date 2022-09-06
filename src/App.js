@@ -11,7 +11,7 @@ function App() {
           {' '}
           <code>Learn React.js</code>
           {' '}
-          From Microverse.
+          From Microverse!.
         </p>
         <a
           className="App-link"
