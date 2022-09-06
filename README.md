@@ -12,12 +12,13 @@
 
 
 ## Getting Started
-
-
-
-
 To get a local copy up and running follow these simple example steps.
 
+- Clone the project unto your local machine using the ``` code ``` button.
+- cd into the project directory
+
+
+Then Follow the Install Steps below
 
 ### Install
  - To Install, run the following command:
