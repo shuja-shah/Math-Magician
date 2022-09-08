@@ -17,7 +17,7 @@ class Calculator extends Component {
           { result }
         </article>
         <section className="calc-input">
-          <button type="submit" className="calc-btn frstRow Operator">0</button>
+          <button type="submit" className="calc-btn frstRow Operator init">0</button>
           <button type="submit" className="calc-btn frstRow Operator">.</button>
           <button type="submit" className="calc-btn frstRow calci">=</button>
           <button type="submit" className="calc-btn secondRow Operator">1</button>
