@@ -1,48 +1,50 @@
 .calc-input {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 .frstRow {
-    grid-row: 5;
+  grid-row: 5;
 }
 
 .secondRow {
-    grid-row: 4;
+  grid-row: 4;
 }
 
 .thirdRow {
-    grid-row: 3;
+  grid-row: 3;
 }
 
 .fourthRow {
-    grid-row: 2;
+  grid-row: 2;
 }
 
 .fifthRow {
-    grid-row: 1;
+  grid-row: 1;
 }
 
 .init {
-    grid-column: 1 /span 2;
+  grid-column: 1 /span 2;
 }
 
 .Operator {
-    padding: 1.3rem;
-    background-color: #f0f0f0;
+  padding: 1.3rem;
+  background-color: #f0f0f0;
 }
 
 .calci {
-    background-color: #f55a00;
+  background-color: #f55a00;
 }
 
 .calci:hover {
-    background-color: #f55a00;
-    color: #fff;
+  background-color: #f55a00;
+  color: #fff;
 }
 
 .calc-result {
-    padding: 2.3rem;
-    text-align: right;
-    background-color:rgba(0, 0, 0, 0.7);
+  padding: 2.3rem;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #f0f0f0;
 }
