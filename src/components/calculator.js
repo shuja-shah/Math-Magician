@@ -6,13 +6,6 @@ class Calculator extends Component {
     this.state = {
       result: 0,
     };
-    this.setNum1 = this.setNum1.bind(this);
-    this.setNum2 = this.setNum2.bind(this);
-    this.add = this.add.bind(this);
-    this.subtract = this.subtract.bind(this);
-    this.multiply = this.multiply.bind(this);
-    this.divide = this.divide.bind(this);
-    this.clear = this.clear.bind(this);
   }
 
   render() {
