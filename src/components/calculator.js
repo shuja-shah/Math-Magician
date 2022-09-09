@@ -19,12 +19,14 @@ class Calculator extends Component {
   };
 
   render() {
-    const { total } = this.state;
+    const { total, next, operation } = this.state;
 
     return (
       <div>
         <article className="calc-result">
           { total }
+          { operation }
+          { next }
         </article>
         <section className="calc-input">
           <button type="submit" onClick={this.clickHandler} className="calc-btn frstRow Operator init">0</button>
