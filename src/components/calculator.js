@@ -47,7 +47,7 @@ class Calculator extends Component {
           <button type="submit" onClick={this.clickHandler} className="calc-btn fifthRow Operator">AC</button>
           <button type="submit" onClick={this.clickHandler} className="calc-btn fifthRow Operator">+/-</button>
           <button type="submit" onClick={this.clickHandler} className="calc-btn fifthRow Operator">%</button>
-          <button type="submit" onClick={this.clickHandler} className="calc-btn fifthRow calci">^</button>
+          <button type="submit" onClick={this.clickHandler} className="calc-btn fifthRow calci">÷</button>
         </section>
       </div>
     );
