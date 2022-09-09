@@ -1,53 +1,30 @@
 import React, { Component } from 'react';
+import calculate from '../logic/calculate';
 
 class Calculator extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      result: 0,
-      number: null,
-      operator: null,
+      total: 0,
+      next: null,
+      operation: null,
     };
     this.clickHandler = this.clickHandler.bind(this);
   }
 
   clickHandler = (e) => {
-    const { result, number, operator } = this.state;
-    const { value } = e.target;
-    switch (value) {
-      case 'C':
-        this.setState({ result: 0, number: null, operator: null });
-        break;
-      case '+':
-      case '-':
-      case '*':
-      case '/':
-        this.setState({ operator: value, number: result });
-        break;
-      case '=':
-        if (!number || !operator) {
-          return;
-        }
-        this.setState({ operator, number: result });
-        break;
-      default:
-        if (result === 0) {
-          this.setState({ result: value });
-        } else {
-          this.setState({ result: result + value });
-        }
-        break;
-    }
-    console.log(this.state);
+    const { innerText } = e.target;
+    const calculateData = calculate(this.state, innerText);
+    this.setState(calculateData);
   };
 
   render() {
-    const { result } = this.state;
+    const { total } = this.state;
 
     return (
       <div>
         <article className="calc-result">
-          { result }
+          { total }
         </article>
         <section className="calc-input">
           <button type="submit" onClick={this.clickHandler} className="calc-btn frstRow Operator init">0</button>
