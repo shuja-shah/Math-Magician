@@ -8,6 +8,7 @@ class Calculator extends Component {
       number: null,
       operator: null,
     };
+    this.clickHandler = this.clickHandler.bind(this);
   }
 
   clickHandler = (e) => {
