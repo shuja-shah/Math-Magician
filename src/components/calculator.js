@@ -5,8 +5,39 @@ class Calculator extends Component {
     super(props);
     this.state = {
       result: 0,
+      number: null,
+      operator: null,
     };
   }
+
+  clickHandler = (e) => {
+    const { result, number, operator } = this.state;
+    const { value } = e.target;
+    switch (value) {
+      case 'C':
+        this.setState({ result: 0, number: null, operator: null });
+        break;
+      case '+':
+      case '-':
+      case '*':
+      case '/':
+        this.setState({ operator: value, number: result });
+        break;
+      case '=':
+        if (!number || !operator) {
+          return;
+        }
+        this.setState({ operator, number: result });
+        break;
+      default:
+        if (result === 0) {
+          this.setState({ result: value });
+        } else {
+          this.setState({ result: result + value });
+        }
+        break;
+    }
+  };
 
   render() {
     const { result } = this.state;
