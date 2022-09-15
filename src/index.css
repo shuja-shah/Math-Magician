@@ -51,7 +51,6 @@
   color: #f0f0f0;
 }
 
-/*# sourceMappingURL=index.css.map */
 nav {
   background-color: #fff;
   padding: 1rem;
@@ -59,10 +58,12 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 body {
   margin: 0;
   padding: 0;
 }
+
 .Naviii {
   display: flex;
   justify-content: space-between;
@@ -76,11 +77,11 @@ body {
   margin: 1rem;
   font-family: 'Roboto', sans-serif;
 }
+
 .Navi {
   border-left: 1px solid black;
   border-right: 1px solid black;
   padding: 0 1rem;
-
 }
 
 .title-intro {
@@ -88,4 +89,14 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   margin: 1rem;
+}
+
+.home-page-det {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
 }

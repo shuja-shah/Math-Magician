@@ -1,6 +1,6 @@
 const HomePage = () => (
   <>
-    <h1>Welcome To Our Page!</h1>
+    <h1 className="title-intro">Welcome To Our Page!</h1>
     <article className="home-page-det">
       <p>
         {' '}
