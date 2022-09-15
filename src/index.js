@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Calculator from './components/calculator';
+import { createRoot } from 'react-dom/client';
+import App from './App';
 import './index.css';
 
-ReactDOM.render(<Calculator />, document.getElementById('root'));
+createRoot(document.getElementById('root')).render(<App />);
