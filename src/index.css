@@ -114,3 +114,21 @@ body {
 .calc-container {
   margin-top: 7%;
 }
+
+.Quota {
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  margin-top: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align-last: left;
+}
+
+.Quota h4 {
+  font-weight: 400;
+}
+
+.Spani {
+  font-weight: 800;
+}
