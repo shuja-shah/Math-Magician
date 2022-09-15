@@ -1,14 +1,16 @@
+import { NavLink } from 'react-router-dom';
+
 const Nav = () => (
   <nav>
     <ul>
       <li>
-        <Link to="/">Home</Link>
+        <NavLink className="Navi" to="/">Home</NavLink>
       </li>
       <li>
-        <Link to="/Calculate">Calculator</Link>
+        <NavLink className="Navi" to="/Calculate">Calculator</NavLink>
       </li>
       <li>
-        <Link to="/Qouta">Quota</Link>
+        <NavLink to="/Qouta">Quota</NavLink>
       </li>
     </ul>
   </nav>
