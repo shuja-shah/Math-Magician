@@ -8,7 +8,7 @@ const Nav = () => (
     <div className="Naviii">
       <Link to="/">Home</Link>
       <Link to="/Calculator" className="Navi">Calculator</Link>
-      <Link to="/Quota">Quota</Link>
+      <Link to="/Quota">Quotes</Link>
     </div>
   </nav>
 );
