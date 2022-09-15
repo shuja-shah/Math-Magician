@@ -11,10 +11,8 @@ import Quota from './components/Quota';
 
 const App = () => (
   <>
-    <header>
-      <Nav />
-    </header>
     <Router>
+      <Nav />
       <Switch>
         <Route exact path="/">
           <HomePage />
