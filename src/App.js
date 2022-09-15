@@ -7,6 +7,7 @@ import {
 import Calculator from './components/calculator';
 import HomePage from './components/Home';
 import Nav from './components/Navigation';
+import Quota from './components/Quota';
 
 const App = () => (
   <>
@@ -18,7 +19,7 @@ const App = () => (
         <Route exact path="/">
           <HomePage />
         </Route>
-        <Route path="/Calculator">
+        <Route exact path="/Calculator">
           <Calculator />
         </Route>
         <Route path="/Quota">
