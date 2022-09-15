@@ -1,7 +1,8 @@
 import { NavLink } from 'react-router-dom';
 
 const Nav = () => (
-  <nav>
+  <nav className="navigationReal">
+    <h2>Math Magician</h2>
     <ul>
       <li>
         <NavLink className="Navi" to="/">Home</NavLink>
