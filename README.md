@@ -9,7 +9,9 @@
 - HTML, CSS , JavaScript
 - SCSS , Webpack, and React
 
+# See Live
 
+[Live Demo Link](https://magicmath.netlify.app/)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
